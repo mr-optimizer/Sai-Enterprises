@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Juvas Rocker, 48 Celling fan",
+    "price": "999",
+    "description": "This is a 48 inches celling fan, with pure copper wire binding, and with bunda body, It comes with 1400 RPM with long lasting facilities ",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "products/kbcedhcbcejeb12vevb",
+        "url": "https://cdn.shopify.com/s/files/1/0248/3945/4771/products/Leon_Ceiling_Fan_Product_Image_650x.jpg?v=1594756427"
+      }
+    ],
+    "category": "Fan",
+    "seller": "Juvas",
+    "stock": 51,
+    "numOfReviews": 32,
+    "reviews": []
+  },
+  {
+    "name": "Juvas Andhi, 48 Celling fan",
+    "price": "909",
+    "description": "This is a 48 inches celling fan, with pure copper wire binding, and with bunda body, It comes with 1600 RPM with long lasting facilities ",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "products/kbcedhcbcejeb12vevb1",
+        "url": "https://cdn.shopify.com/s/files/1/0248/3945/4771/products/Leon_Ceiling_Fan_Product_Image_650x.jpg?v=1594756427"
+      }
+    ],
+    "category": "Fan",
+    "seller": "Juvas",
+    "stock": 510,
+    "numOfReviews": 3,
+    "reviews": []
+  },
+  {
+    "name": "Juvas tape",
+    "price": "9",
+    "description": "This is a steal grip tape, it not catch fire, totally safe with long lasting facilities ",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "products/kbcedhcbcejeb12vevb",
+        "url": "https://cdn.shopify.com/s/files/1/0248/3945/4771/products/Leon_Ceiling_Fan_Product_Image_650x.jpg?v=1594756427"
+      }
+    ],
+    "category": "Tape",
+    "seller": "Juvas",
+    "stock": 510,
+    "numOfReviews": 3,
+    "reviews": []
+  }
+]

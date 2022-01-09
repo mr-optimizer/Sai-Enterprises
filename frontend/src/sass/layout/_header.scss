@@ -1,0 +1,16 @@
+
+.logo__container {
+  display: flex;
+  &__logo {
+    height: 2.5rem;
+  }
+  
+  &__name {
+    padding-left: 1rem;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+
