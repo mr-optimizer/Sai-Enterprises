@@ -71,7 +71,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="container container-fluid">
+        <div className="main__container">
           <Route path="/" component={Home} exact></Route>
           <Route path="/cart" component={Cart} exact></Route>
           <ProtectedRoute path="/shipping" component={Shiping} />

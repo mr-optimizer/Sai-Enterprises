@@ -59,11 +59,11 @@ function Home() {
       {loding ? (
         <Loader />
       ) : (
-        <Fragment>
+        <Fragment >
           <MetaData title={"Buy Best Product online"} />
-          <h1 id="products_heading">Latest Products</h1>
 
-          <section id="products" className=" mt-5">
+          <section id="products" className=" home">
+          <h1 id="products_heading">Latest Products</h1>
             <div className="row">
               {keyword ? (
                 <Fragment>
@@ -135,7 +135,7 @@ function Home() {
                   </div> 
 
                   <div className="col-6 col-md-9">
-                    <div className="row">
+                    <div className="card__container">
                       {products &&
                         products.map((product) => (
                           <Product
@@ -148,16 +148,23 @@ function Home() {
                   </div>
                 </Fragment>
               ) : (
-                products &&
-                products.map((product) => (
-                  <Product key={product._id} product={product} col={3} />
-                ))
+                
+                <div className="card__container">
+                      {products &&
+                        products.map((product) => (
+                          <Product
+                            key={product._id}
+                            product={product}
+                         
+                          />
+                        ))}
+                    </div>
               )}
             </div>
           </section>
 
           {resPerPage <= productsCount && (
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-2">
               <Pagination
                 activePage={currentPage}
                 itemsCountPerPage={resPerPage}
