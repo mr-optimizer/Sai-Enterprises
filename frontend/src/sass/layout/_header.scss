@@ -24,6 +24,20 @@
   display: flex;
   gap: 1rem;
 }
+
+.user__dropdown{
+  background: transparent;
+  &,
+  &::after,
+  &::before,
+  &:hover,
+  &:focus,
+  &:any-link{
+    text-decoration: none;
+    color: black;
+    background: transparent;
+  }
+}
 .logo__container {
   display: flex;
   &__logo {

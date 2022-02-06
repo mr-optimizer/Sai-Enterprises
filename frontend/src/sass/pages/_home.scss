@@ -1,14 +1,17 @@
 .home {
-    padding: 0rem 5rem;
+    padding: 5rem 4rem;
 }
-
+.home_poster{
+    height: 55rem;
+    width: 100%;
+}
 
 .card__container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .card__desc {
@@ -18,24 +21,24 @@
 }
 
 .product-card {
-    width: 30rem;
+    width: 22rem;
     position: relative;
     border-radius: 1rem;
-    box-shadow: 1rem 1rem 1.5rem #5353533a;
-    margin: 50px auto;
+    box-shadow: .5rem 0.7rem 0.7rem #53535321;
+    margin: 5rem auto;
     background: #fafafa;
 }
 
 .badge {
     position: absolute;
     left: 0;
-    top: 20px;
+    top: 1.2rem;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 0.9rem;
     font-weight: 700;
     background: red;
     color: #fff;
-    padding: 3px 10px;
+    padding: 3px 1rem;
 }
 
 .product-tumb {
@@ -44,7 +47,7 @@
     justify-content: center;
     height: 20rem;
     padding: 3rem;
-    background: #f0f0f0;
+    background: #fff;
 }
 
 .product-tumb img {
@@ -53,7 +56,7 @@
 }
 
 .product-details {
-    padding: 30px;
+    padding: 1.5rem;
 }
 
 .product-catagory {
@@ -68,7 +71,7 @@
 .product-details h4 a {
     font-weight: 500;
     display: block;
-    margin-bottom: 18px;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     color: #363636;
     text-decoration: none;
@@ -80,60 +83,57 @@
 }
 
 .product-details p {
-    font-size: 15px;
-    line-height: 22px;
-    margin-bottom: 18px;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
     color: #999;
 }
 
 .product-bottom-details {
     overflow: hidden;
     border-top: 1px solid #eee;
-    padding-top: 20px;
+    padding-top: 1.2rem;
 }
 
-.product-bottom-details div {
-    // float: left;
-    // width: 50%;
-}
 
 .product-price {
-    font-size: 18px;
+    font-size: 1.6rem;
     color: #fbb72c;
     font-weight: 600;
 }
 
 .product-price small {
-    font-size: 80%;
+    font-size: 70%;
     font-weight: 400;
     text-decoration: line-through;
     display: inline-block;
-    margin-right: 5px;
+  
 }
 .card__ratting {
     display: flex;
     justify-content: space-between;
+    // align-items: flex-end;
 }
 .product-links {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .product-links a {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 1px;
     color: #e1e1e1;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 .product-links a:hover {
     color: #fbb72c;
 }
 
-
 .temp {
-    transform: translateX(1rem);
+    transform: translateY(-0.3rem);
 }
 
 

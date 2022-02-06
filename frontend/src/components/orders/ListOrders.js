@@ -79,6 +79,7 @@ const ListOrders = () => {
   return (
     <Fragment>
       <MetaData title={"My Orders"} />
+      <div className="p-5">
       <h1 className="my-5">My Orders</h1>
       {loding ? (
         <Loader />
@@ -91,6 +92,7 @@ const ListOrders = () => {
           className="px-2"
         />
       )}
+      </div>
     </Fragment>
   );
 };

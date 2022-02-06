@@ -49,7 +49,7 @@ const Header = () => {
             <div className="dropdown ">
               <Link
                 to="#!"
-                className="btn dropdown-toggle  mr-4"
+                className="user__dropdown dropdown-toggle  mr-4"
                 type="button"
                 id="dropDownMenuButton"
                 data-toggle="dropdown"
@@ -63,7 +63,7 @@ const Header = () => {
                     className="rounded-circle"
                   />
                 </figure>
-                <span>{user.name}</span>
+                <span>{user.name} &nbsp;</span>
               </Link>
 
               <div

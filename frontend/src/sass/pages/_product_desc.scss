@@ -1,0 +1,122 @@
+.prod_desc_section{
+    margin: 5rem 17rem;
+    background-color: #fff;
+    box-shadow: 0.5rem .01rem 1.6rem rgba(31, 31, 31, 0.274);
+    border-radius: 1rem;
+}
+.prod_card{
+    padding: 5rem 1rem 5rem 5rem;
+    display: flex;
+    align-items: center;
+
+}
+.image_container{
+    width: 35%;
+}
+
+.prode_desc{
+    &_detail{
+        position: relative;
+    padding: 1rem 3rem 1rem 10rem;
+    width: 65%;
+    }
+    &_heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    &_text{
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 2rem;
+    }
+}
+.sale_svg{
+    position: absolute;
+    top: -8rem;
+    right: -3rem;
+    width: 11rem;
+}
+#product_id {
+    color: grey;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+#product_price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #fa9c23;
+}
+#product_price > small {
+    font-size: 60%;
+    text-decoration: line-through;
+}
+#cart_btn {
+    margin-top: 3rem;
+    border-radius: 0.3rem;
+    background-color: #fa9c23;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-left: 3rem;
+}
+
+
+.stockCounter input {
+    border: none;
+    width: 3rem;
+    margin-top: 2rem;
+    background-color: transparent !important;
+    text-align: center;
+  }
+  
+  .plus{
+    padding: 0.1rem 0.5rem;
+    background-color: #fa9c23;
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+  }
+  .minus {
+    padding: 0.09rem 0.6rem;
+    font-size: 1.1rem;
+    margin-left: 4rem;
+    background-color: rgba(128, 128, 128, 0.829);
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+  }
+  
+  .stockCounter input::-webkit-outer-spin-button,
+  .stockCounter input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .login_alert{
+      color: red;
+      margin-top: 3rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+  }
+
+  #review_btn {
+    margin-top: 3rem;
+    border-radius: 0.3rem;
+    background-color: rgba(128, 128, 128, 0.658);
+    border: none;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+  }
+
+.prod_review{
+    padding: 3rem;    
+}
+
+// similar products
+.similar_products{
+    padding: 3rem;
+}

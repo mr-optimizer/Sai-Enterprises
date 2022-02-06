@@ -4,8 +4,11 @@ const footer = () => {
   return (
     <Fragment>
       <footer className="">
-        <p className="footer_text">
-          Shopping Cart - 2021-2022, All Rights Reserved
+        <p className="">
+         <span className="footer_text">
+
+          Sai Enterprises 	&#169; - 2021-2022, All Rights Reserved
+         </span>
         </p>
       </footer>
     </Fragment>

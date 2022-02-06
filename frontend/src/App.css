@@ -109,7 +109,7 @@ nav {
 }
 
 #no_of_reviews {
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: grey;
   margin-left: 0.5rem;
 }
@@ -128,6 +128,7 @@ footer {
   display: inline-block;
   position: relative;
   font-family: FontAwesome;
+  font-size: 2rem;
   color: #fdcc0d;
 }
 
@@ -150,23 +151,12 @@ footer {
 }
 
 /* Product Details Page */
-#product_id {
-  color: grey;
-  font-size: 0.8rem;
-}
 
-#product_price {
-  font-size: 2rem;
-  font-weight: bold;
-}
 
-#cart_btn,
-#review_btn {
-  border-radius: 2rem;
-  background-color: #fa9c23;
-  border: none;
-  padding: 0.5rem 2rem;
-}
+
+
+
+
 
 #product_seller {
   color: grey;
@@ -270,22 +260,7 @@ footer {
   font-weight: bold;
 }
 
-.stockCounter input {
-  border: none;
-  width: 3rem;
-  text-align: center;
-}
 
-.plus,
-.minus {
-  padding: 0.1rem 0.5rem;
-}
-
-.stockCounter input::-webkit-outer-spin-button,
-.stockCounter input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
 .form-control:disabled,
 .form-control[readonly] {
@@ -436,13 +411,17 @@ footer {
 }
 
 .user-info h4 {
+  display: inline-block;
   font-weight: 800;
   color: grey;
   margin-top: 2rem;
+  font-size: 1.8rem;
 }
 
-.user-info p {
-  font-size: 1.1rem;
+.user-info span {
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
 }
 
 #edit_profile {
@@ -461,6 +440,9 @@ footer {
   background-color: #fa9c23;
   border-color: #fa9c23;
   color: white;
+  letter-spacing: 0.15rem;
+  /* padding: 0.7rem 4rem; */
+  font-size: 1.3rem;
 }
 
 .update-btn:hover {
@@ -489,7 +471,7 @@ footer {
   align-items: stretch;
   min-height: 100vh;
   font-weight: normal;
-
+  border-right: #000 solid 1px;
   margin-top: 0;
   height: 100%;
   left: 0;
@@ -499,8 +481,8 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #232f3e;
-  color: #fff;
+  background: transparent;
+  color: #000;
   transition: all 0.3s;
 }
 #sidebar.active {
@@ -513,19 +495,18 @@ footer {
 }
 #sidebar ul.components {
   padding: 5px 0px;
-  border-bottom: 1px solid #232f3e;
 }
 
 #sidebar ul li a {
   padding: 10px;
   font-size: 1.1em;
   display: block;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 #sidebar ul li a:hover {
   color: #232f3e;
-  background: #fff;
+  background: #aadceb57;
 }
 
 #sidebar ul li a i {
@@ -534,8 +515,8 @@ footer {
 
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
-  color: #fff;
-  background: #232f3e;
+  color: #000;
+  background: #aadceb57;
 }
 a[data-toggle="collapse"] {
   position: relative;
@@ -551,7 +532,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 1rem !important;
   padding-left: 30px !important;
-  background: #232f3e;
+  background: transparent;
 }
 
 ul.CTAs {

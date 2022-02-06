@@ -1,11 +1,7 @@
-// footer {
-//     margin-top: 8rem;
-//     color: grey;
-//     bottom: 0;
-//     width: 100%;
-
-// }
-.footer_text{
+footer{
     text-align: center;
-    // display: none;
+    font-style: italic;
+}
+.footer_text{
+    border-bottom: 1px solid black;
 }

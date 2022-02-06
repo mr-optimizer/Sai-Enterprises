@@ -7,8 +7,8 @@
 }
 body {
   box-sizing: border-box;
-  background-image: linear-gradient(to top left, rgba(#6FCFE5,0.8), rgba(#DFFF00,.1));
-  
+  // background-image: linear-gradient(to top left, rgba(#a6dff173,0.8), rgba(#ddff0094,.1)); 
+  background-color: #c8e0de8f;
 }
 
 body::-webkit-scrollbar {
@@ -52,5 +52,8 @@ html {
 }
 
 .main__container{
-  padding: 5rem;
+  // padding: 5rem;
+}
+.heading{
+  background-color: #c8e0de8f;
 }

@@ -40,7 +40,7 @@ exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 
 // Get all products    =>    /api/v1/products?keywords=Fan
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
-  const resPerPage = 9;
+  const resPerPage = 6;
   const productsCount = await Product.countDocuments();
   const apiFeatures = new ApiFeatures(Product.find(), req.query)
     .search() //all the products in Product collection is now stored in apifeaturs

@@ -30,6 +30,7 @@ const Cart = ({ history }) => {
   return (
     <Fragment>
       <MetaData title={"Your Cart"} />
+      <div className="my_cart">
       {cartItems.length === 0 ? (
         <h2 className="mt-5">Your Cart is empty</h2>
       ) : (
@@ -47,6 +48,7 @@ const Cart = ({ history }) => {
                     <div className="row">
                       <div className="col-4 col-lg-3">
                         <img
+                          className="d-block"
                           src={item.image}
                           alt="Laptop"
                           height="90"
@@ -62,8 +64,8 @@ const Cart = ({ history }) => {
                         <p id="card_item_price">₹{item.price}</p>
                       </div>
 
-                      <div className="col-4 col-lg-3 mt-4 mt-lg-0">
-                        <div className="stockCounter d-inline">
+                      <div className="col-4 col-lg-3 ">
+                        <div className="stockCounter_cart d-inline">
                           <span
                             className="btn btn-danger minus"
                             onClick={() =>
@@ -148,6 +150,7 @@ const Cart = ({ history }) => {
           </div>
         </Fragment>
       )}
+      </div>
     </Fragment>
   );
 };

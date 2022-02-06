@@ -67,7 +67,7 @@ const UpdateProfile = ({ history }) => {
   return (
     <Fragment>
       <MetaData title={"Update Profile"} />
-      <div className="row wrapper">
+      <div className="row update_profile_wraper wrapper">
         <div className="col-10 col-lg-5">
           <form className="shadow-lg" encType="multipart/form-data" onSubmit={submitHandler}>
             <h1 className="mt-2 mb-5">Update Profile</h1>
@@ -120,7 +120,7 @@ const UpdateProfile = ({ history }) => {
               </div>
             </div>
 
-            <button type="submit" className="btn update-btn btn-block mt-4 mb-3" 
+            <button type="submit" className="btn update-btn btn-block mt-5 mb-3" 
             disabled={loding ? true : false}>
               Update
             </button>

@@ -61,13 +61,13 @@ function Home() {
       ) : (
         <Fragment >
           <MetaData title={"Buy Best Product online"} />
-
-          <section id="products" className=" home">
-          <h1 id="products_heading">Latest Products</h1>
+        
+          <section id="products" className=" display-5">
+          
             <div className="row">
               {keyword ? (
                 <Fragment>
-                  <div className="col-6 col-md-3 mt-5 mb-5">
+                  <div className="col-6 col-md-3 mt-5 mb-5 p-5">
                     <div className="px-5">
                       <Range //price range filter
                         marks={{
@@ -109,7 +109,7 @@ function Home() {
                   
 
                   <hr className="my-3" />
-                  <div className="mt-5">
+                  <div className="mt-5 p-5">
                     <h4 className="mb-5">Ratings</h4>
                     <ul className="pl-0">
                       {[5, 4, 3, 2, 1].map((star) => (
@@ -148,7 +148,12 @@ function Home() {
                   </div>
                 </Fragment>
               ) : (
-                
+                <Fragment>
+
+                <img className="home_poster" src="https://res.cloudinary.com/saienterprises/image/upload/v1644142015/SAI_ENTERPRISES_adkqgy.png" alt="sai_enterprises"></img>
+                <div className="home">
+
+                <h1 id="products_heading">Our Latest Products</h1>
                 <div className="card__container">
                       {products &&
                         products.map((product) => (
@@ -159,12 +164,14 @@ function Home() {
                           />
                         ))}
                     </div>
+                </div>
+                </Fragment>
               )}
             </div>
           </section>
 
           {resPerPage <= productsCount && (
-            <div className="d-flex justify-content-center mt-2">
+            <div className="d-flex justify-content-center">
               <Pagination
                 activePage={currentPage}
                 itemsCountPerPage={resPerPage}
